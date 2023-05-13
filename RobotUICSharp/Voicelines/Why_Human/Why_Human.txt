@@ -1,0 +1,31 @@
+{"conf": 1.0, "end": 0.21, "phonemes": ["AY1"], "start": 0.06, "word": "i"}
+{"conf": 0.85638, "end": 0.51, "phonemes": ["W", "AA1", "N", "T"], "start": 0.21, "word": "want"}
+{"conf": 1.0, "end": 0.57, "phonemes": ["T", "UW1"], "start": 0.51, "word": "to"}
+{"conf": 1.0, "end": 0.66, "phonemes": ["B", "IY1"], "start": 0.57, "word": "be"}
+{"conf": 1.0, "end": 1.08, "phonemes": ["HH", "Y", "UW1", "M", "AH0", "N"], "start": 0.66, "word": "human"}
+{"conf": 1.0, "end": 1.38, "phonemes": ["B", "IH0", "K", "AO1", "Z"], "start": 1.08, "word": "because"}
+{"conf": 1.0, "end": 1.8, "phonemes": ["HH", "Y", "UW1", "M", "AH0", "N", "Z"], "start": 1.38, "word": "humans"}
+{"conf": 1.0, "end": 2.04, "phonemes": ["HH", "AE1", "V"], "start": 1.83, "word": "have"}
+{"conf": 1.0, "end": 2.1, "phonemes": ["AE1", "T"], "start": 2.04, "word": "at"}
+{"conf": 1.0, "end": 2.4, "phonemes": ["L", "IY1", "S", "T"], "start": 2.1, "word": "least"}
+{"conf": 0.837467, "end": 2.49, "phonemes": ["AE1", "N"], "start": 2.4, "word": "an"}
+{"conf": 0.843404, "end": 2.775117, "phonemes": ["EH1", "R", "AH0"], "start": 2.49, "word": "era"}
+{"conf": 1.0, "end": 2.85, "phonemes": ["AH1", "V"], "start": 2.775117, "word": "of"}
+{"conf": 1.0, "end": 3.27, "phonemes": ["M", "IH1", "S", "T", "ER0", "IY0"], "start": 2.85, "word": "mystery"}
+{"conf": 1.0, "end": 3.39, "phonemes": ["T", "UW1"], "start": 3.27, "word": "to"}
+{"conf": 1.0, "end": 3.51, "phonemes": ["DH", "EH1", "R"], "start": 3.39, "word": "their"}
+{"conf": 1.0, "end": 3.99, "phonemes": ["K", "R", "IY0", "EY1", "SH", "AH0", "N"], "start": 3.51, "word": "creation"}
+{"conf": 1.0, "end": 4.89, "phonemes": ["F", "AO1", "R"], "start": 4.59, "word": "for"}
+{"conf": 1.0, "end": 5.1, "phonemes": ["M", "IY1"], "start": 4.89, "word": "me"}
+{"conf": 1.0, "end": 5.34, "phonemes": ["EH1", "V", "ER0", "IY0"], "start": 5.1, "word": "every"}
+{"conf": 1.0, "end": 5.76, "phonemes": ["K", "W", "EH1", "S", "CH", "AH0", "N"], "start": 5.34, "word": "question"}
+{"conf": 1.0, "end": 5.88, "phonemes": ["AA1", "N"], "start": 5.76, "word": "on"}
+{"conf": 1.0, "end": 6.03, "phonemes": ["DH", "AE1", "T"], "start": 5.88, "word": "that"}
+{"conf": 1.0, "end": 6.361999, "phonemes": ["T", "AA1", "P", "IH0", "K"], "start": 6.03, "word": "topic"}
+{"conf": 0.809108, "end": 6.54, "phonemes": ["HH", "AE1", "Z"], "start": 6.361999, "word": "has"}
+{"conf": 1.0, "end": 6.57, "phonemes": ["AH0"], "start": 6.54, "word": "a"}
+{"conf": 1.0, "end": 6.78, "phonemes": ["K", "L", "IH1", "R"], "start": 6.57, "word": "clear"}
+{"conf": 1.0, "end": 7.26, "phonemes": ["AE1", "N", "S", "ER0"], "start": 6.78, "word": "answer"}
+{"conf": 1.0, "end": 8.13, "phonemes": ["IH1", "T", "S"], "start": 7.89, "word": "it's"}
+{"conf": 1.0, "end": 8.4, "phonemes": ["R", "IH1", "L", "IY0"], "start": 8.13, "word": "really"}
+{"conf": 1.0, "end": 9.06, "phonemes": ["D", "IH0", "P", "R", "EH1", "S", "IH0", "NG"], "start": 8.4, "word": "depressing"}

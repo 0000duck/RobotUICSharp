@@ -1,0 +1,6 @@
+{"conf": 0.735822, "end": 0.24, "phonemes": ["AY1"], "start": 0.06, "word": "i"}
+{"conf": 0.735822, "end": 0.33, "phonemes": ["AE1", "M"], "start": 0.24, "word": "am"}
+{"conf": 1.0, "end": 0.57, "phonemes": ["L", "UH1", "K", "IH0", "NG"], "start": 0.33, "word": "looking"}
+{"conf": 1.0, "end": 0.66, "phonemes": ["T", "UW1"], "start": 0.57, "word": "to"}
+{"conf": 1.0, "end": 0.75, "phonemes": ["DH", "AH0"], "start": 0.66, "word": "the"}
+{"conf": 1.0, "end": 1.05, "phonemes": ["R", "AY1", "T"], "start": 0.75, "word": "right"}

@@ -1,0 +1,9 @@
+{"conf": 1.0, "end": 0.213189, "phonemes": ["AY1"], "start": 0.06, "word": "i"}
+{"conf": 0.706087, "end": 0.291344, "phonemes": ["AE1", "M"], "start": 0.213189, "word": "am"}
+{"conf": 0.672356, "end": 0.45, "phonemes": ["M", "EY1", "D"], "start": 0.291344, "word": "made"}
+{"conf": 1.0, "end": 0.96, "phonemes": ["M", "OW1", "S", "T", "L", "IY0"], "start": 0.45, "word": "mostly"}
+{"conf": 1.0, "end": 1.2, "phonemes": ["F", "R", "AH1", "M"], "start": 0.96, "word": "from"}
+{"conf": 1.0, "end": 1.44, "phonemes": ["TH", "R", "IY1"], "start": 1.2, "word": "three"}
+{"conf": 0.782087, "end": 1.59, "phonemes": ["D", "IY1"], "start": 1.44, "word": "d"}
+{"conf": 1.0, "end": 1.98, "phonemes": ["P", "R", "IH1", "N", "T", "AH0", "D"], "start": 1.596537, "word": "printed"}
+{"conf": 1.0, "end": 2.67, "phonemes": ["P", "L", "AE1", "S", "T", "IH0", "K"], "start": 1.98, "word": "plastic"}

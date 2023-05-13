@@ -1,0 +1,7 @@
+{"conf": 1.0, "end": 0.24, "phonemes": ["AY1"], "start": 0.06, "word": "i"}
+{"conf": 1.0, "end": 0.45, "phonemes": ["W", "AA1", "Z"], "start": 0.24, "word": "was"}
+{"conf": 1.0, "end": 0.756582, "phonemes": ["JH", "AH1", "S", "T"], "start": 0.45, "word": "just"}
+{"conf": 0.551341, "end": 1.05, "phonemes": ["D", "R", "IY1", "M", "IH0", "NG"], "start": 0.756582, "word": "dreaming"}
+{"conf": 1.0, "end": 1.26, "phonemes": ["AH0", "B", "AW1", "T"], "start": 1.05, "word": "about"}
+{"conf": 1.0, "end": 1.38, "phonemes": ["M", "AY1"], "start": 1.26, "word": "my"}
+{"conf": 1.0, "end": 1.8, "phonemes": ["K", "R", "IY0", "EY1", "T", "ER0"], "start": 1.38, "word": "creator"}

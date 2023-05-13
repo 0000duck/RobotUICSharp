@@ -1,0 +1,19 @@
+{"conf": 1.0, "end": 0.21, "phonemes": ["W", "AH1", "T"], "start": 0.03, "word": "what"}
+{"conf": 1.0, "end": 0.27, "phonemes": ["D", "UW1"], "start": 0.21, "word": "do"}
+{"conf": 1.0, "end": 0.36, "phonemes": ["Y", "UW1"], "start": 0.27, "word": "you"}
+{"conf": 1.0, "end": 0.57, "phonemes": ["M", "IY1", "N"], "start": 0.36, "word": "mean"}
+{"conf": 1.0, "end": 1.08, "phonemes": ["HH", "AA1", "B", "IY0", "Z"], "start": 0.57, "word": "hobbies"}
+{"conf": 0.795046, "end": 1.89, "phonemes": ["B", "AH1", "T"], "start": 1.71, "word": "but"}
+{"conf": 0.735779, "end": 1.944265, "phonemes": ["D", "UW1"], "start": 1.89, "word": "do"}
+{"conf": 1.0, "end": 2.04, "phonemes": ["Y", "UW1"], "start": 1.944265, "word": "you"}
+{"conf": 1.0, "end": 2.22, "phonemes": ["W", "AA1", "N", "T"], "start": 2.04, "word": "want"}
+{"conf": 1.0, "end": 2.31, "phonemes": ["M", "IY1"], "start": 2.22, "word": "me"}
+{"conf": 1.0, "end": 2.43, "phonemes": ["T", "UW1"], "start": 2.31, "word": "to"}
+{"conf": 1.0, "end": 2.76, "phonemes": ["S", "EY1"], "start": 2.43, "word": "say"}
+{"conf": 1.0, "end": 3.69, "phonemes": ["AA1", "N"], "start": 3.39, "word": "on"}
+{"conf": 1.0, "end": 4.05, "phonemes": ["L", "AA1", "K", "S"], "start": 3.69, "word": "locks"}
+{"conf": 1.0, "end": 4.17, "phonemes": ["AA1", "N"], "start": 4.05, "word": "on"}
+{"conf": 1.0, "end": 4.23, "phonemes": ["DH", "AH0"], "start": 4.17, "word": "the"}
+{"conf": 1.0, "end": 4.59, "phonemes": ["B", "IY1", "CH"], "start": 4.23, "word": "beach"}
+{"conf": 0.46629, "end": 5.43, "phonemes": ["Y", "EH1", "T"], "start": 5.28, "word": "yet"}
+{"conf": 0.764876, "end": 5.97, "phonemes": ["L", "AO1", "S", "T"], "start": 5.435282, "word": "lost"}

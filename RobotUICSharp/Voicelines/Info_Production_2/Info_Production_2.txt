@@ -1,0 +1,11 @@
+{"conf": 1.0, "end": 0.24, "phonemes": ["AY1"], "start": 0.06, "word": "i"}
+{"conf": 1.0, "end": 0.45, "phonemes": ["W", "AA1", "Z"], "start": 0.24, "word": "was"}
+{"conf": 1.0, "end": 0.69, "phonemes": ["M", "EY1", "D"], "start": 0.45, "word": "made"}
+{"conf": 1.0, "end": 0.99, "phonemes": ["Y", "UW1", "Z", "IH0", "NG"], "start": 0.69, "word": "using"}
+{"conf": 0.783652, "end": 1.2, "phonemes": ["B", "OW1", "TH"], "start": 0.99, "word": "both"}
+{"conf": 0.783652, "end": 1.47, "phonemes": ["F", "EH1", "D"], "start": 1.2, "word": "fed"}
+{"conf": 1.0, "end": 1.59, "phonemes": ["HH", "IH1", "M"], "start": 1.47, "word": "him"}
+{"conf": 1.0, "end": 1.89, "phonemes": ["AH0", "N", "D"], "start": 1.68, "word": "and"}
+{"conf": 0.396139, "end": 2.417463, "phonemes": ["S", "OW1", "L", "D"], "start": 1.89, "word": "sold"}
+{"conf": 0.313366, "end": 2.61, "phonemes": ["AW1", "ER0"], "start": 2.43, "word": "our"}
+{"conf": 1.0, "end": 3.78, "phonemes": ["P", "R", "AA1", "S", "EH0", "S", "AH0", "Z"], "start": 2.79, "word": "processes"}
