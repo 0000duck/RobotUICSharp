@@ -21,10 +21,9 @@ namespace RobotUICSharp
             listener = new HttpListener();
             listener.Prefixes.Add(URL);
             listener.Start();
-            Console.WriteLine("Webcontroller listener start");
+            Console.WriteLine("Webcontroller listener started");
             Thread WebThread = new Thread(new ThreadStart(this.HandleWebserver));
             WebThread.Start();
-            Console.WriteLine("Is this run?");
         }
 
 

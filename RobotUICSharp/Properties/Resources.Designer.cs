@@ -82,5 +82,15 @@ namespace RobotUICSharp.Properties {
                 return ResourceManager.GetString("haarcascade_frontalface_default", resourceCulture);
             }
         }
+        
+        /// <summary>
+        ///   Sucht eine lokalisierte Ressource vom Typ System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap white {
+            get {
+                object obj = ResourceManager.GetObject("white", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
     }
 }

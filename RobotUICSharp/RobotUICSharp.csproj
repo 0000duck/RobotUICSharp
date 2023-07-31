@@ -57,12 +57,13 @@
     <Compile Include="ArpabetTranslator.cs" />
     <Compile Include="AudioSynchronizer.cs" />
     <Compile Include="MultiState_Test.cs" />
+    <Compile Include="State_Cry.cs" />
     <Compile Include="State_Facetrack.cs" />
-    <Compile Include="Form1.cs">
+    <Compile Include="MainForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
     </Compile>
     <Compile Include="MotorPositionContainer.cs" />
     <Compile Include="Program.cs" />
@@ -71,12 +72,19 @@
     <Compile Include="SerialConnector.cs" />
     <Compile Include="StateInterface.cs" />
     <Compile Include="State_Idle.cs" />
+    <Compile Include="State_MotorEnduranceTest.cs" />
     <Compile Include="State_MotorposTest.cs" />
     <Compile Include="State_Sleep_Awake.cs" />
     <Compile Include="State_Speak.cs" />
+    <Compile Include="ControllerEye.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ControllerEye.Designer.cs">
+      <DependentUpon>ControllerEye.cs</DependentUpon>
+    </Compile>
     <Compile Include="WebController.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -88,6 +96,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="ControllerEye.resx">
+      <DependentUpon>ControllerEye.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -132,6 +143,7 @@
     <Content Include="opencv_videoio_ffmpeg470_64.dll">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <None Include="Resources\white.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

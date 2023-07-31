@@ -32,7 +32,8 @@ namespace RobotUICSharp
         {
             if (endIdle)
             {
-                RobotAnimator.Instance.SetStandardMotorPositions();
+                RobotAnimator.Instance.
+                    SetStandardMotorPositions();
             }
             RobotAnimator.Instance.AudioSynchronizer.SpeechComplete -= SpeechEnded;
         }

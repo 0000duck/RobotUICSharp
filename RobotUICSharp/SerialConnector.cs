@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.IO.Ports;
+using System.Threading;
 
 namespace RobotUICSharp
 {
@@ -11,13 +12,14 @@ namespace RobotUICSharp
     internal class SerialConnector
     {
         private SerialPort port;
-
+        private Thread receiveThread;
 
 
         public SerialConnector()
         {
             port = new SerialPort();
             port.BaudRate = 115200;
+            receiveThread = new Thread(new ThreadStart(this.receiveMessages));
         }
 
         // Sets the COM-Port that is to be used 
@@ -35,25 +37,40 @@ namespace RobotUICSharp
         //Closes the SerialPorts connection 
         public void shutdownPort()
         {
-            if (port.IsOpen == true) { port.Close(); }
+            if (port.IsOpen == true) {
+                receiveThread.Join();
+                port.Close(); 
+            }
 
         }
 
         //Opens the Serial Port. Returns true if successful. Returns false if error occurs (Port non-existent, Port in use, or similar) .
         public bool openPort()
         {
-            try { 
+            try
+            {
                 port.Open();
                 Console.WriteLine("Opened Port at " + port.PortName);
-                return true; 
+                receiveThread.Start();
+                return true;
             }
-            catch 
+            catch
             (Exception ex)
-            { 
-                Console.WriteLine(ex.Message);  
-                return false; 
+            {
+                Console.WriteLine(ex.Message);
+                return false;
             }
-            
+
+        }
+
+        private void receiveMessages()
+        {
+            while (true)
+            {
+                String received = port.ReadLine();
+                Console.WriteLine(received);
+                
+            }
         }
 
         //Returns the state of the port as a boolean. 
@@ -70,6 +87,7 @@ namespace RobotUICSharp
                 try
                 {
                     port.WriteLine(message);
+
                 }
                 catch (Exception ex)
                 {
